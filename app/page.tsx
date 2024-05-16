@@ -279,7 +279,7 @@ export default function Home() {
       </CardContent>
       <CardFooter className="flex justify-between">
         <Button variant="outline"><a href="https://dev.monastours.com/">Web Page</a></Button>
-        <Button><a href="https://github.com/arrorobbi/23001058_9_Rob_BingleShop_Challenge-Gold">Github</a></Button>
+        <Button><a href="https://github.com/BEJ9-Team1/Binar-Platinum">Github</a></Button>
       </CardFooter>
     </Card>
     </div>
