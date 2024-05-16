@@ -27,7 +27,7 @@ export default function Home() {
 
   return (
     <div>
-    <Card className="container font-sans mt-4 bg-[#FFFB00]">
+    <Card className="container font-sans mt-4 bg-[#EFB758]">
         <CardHeader>
         <CardTitle>Robbi Arrofirizky</CardTitle>
         <CardDescription>Informatics graduate with experiences in developing systems and supporting hardware of computers. Proficient at assessing impact from spesification of hardware and developing in systems. Energic and approachable person with detail oriented and time management. Motivated pursuing career to learn and grow as a developer system and support.</CardDescription>
@@ -36,12 +36,12 @@ export default function Home() {
     <div className="container font-sans mt-4">
       <Tabs defaultValue="Info">
     <TabsList>
-      <TabsTrigger value="experiences">Experiences</TabsTrigger>
-      <TabsTrigger value="education">Education</TabsTrigger>
+      <TabsTrigger value="experiences" className="bg-[#E1DCC9]">Experiences</TabsTrigger>
+      <TabsTrigger value="education" className="bg-[#E1DCC9]">Education</TabsTrigger>
     </TabsList>
     <TabsContent value="education">
     <Card>
-      <Accordion type="single" collapsible className="w-full">
+      <Accordion type="single" collapsible className="w-full bg-[#E1DCC9]">
       <AccordionItem value="item-1">
         <AccordionTrigger className="ml-6">Universitas Pembangunan Nasional &quot;Veteran&quot; Jawa Timur</AccordionTrigger>
         <AccordionContent>
@@ -81,7 +81,7 @@ export default function Home() {
     </TabsContent>
     <TabsContent value="experiences">
       <Card>
-      <Accordion type="single" collapsible className="w-full">
+      <Accordion type="single" collapsible className="w-full bg-[#E1DCC9]">
       <AccordionItem value="item-1">
         <AccordionTrigger className="ml-6">CV. ARTHA MUDA KENDHANA (CENDIST)</AccordionTrigger>
         <AccordionContent>
@@ -125,12 +125,12 @@ export default function Home() {
   </Tabs>
     </div>
     <div className="container mx-auto grid grid-cols-1 lg:grid-cols-3 gap-4 mt-4">
-    <Card className="bg-[#00E0FF] w-[420px]">
+    <Card className="bg-[#235784] w-[420px]">
       <CardHeader>
-        <CardTitle>Ismei News Portal</CardTitle>
-        <CardDescription>The project is focused on Comunity Profile with having news portal</CardDescription>
+        <CardTitle className="text-[#E1DCC9]">Ismei News Portal</CardTitle>
+        <CardDescription className="text-[#94a3b8]">The project is focused on Comunity Profile with having news portal</CardDescription>
       </CardHeader>
-      <CardTitle className="ml-6 text-base">Tech Stack</CardTitle>
+      <CardTitle className="ml-6 text-base text-[#94a3b8]">Tech Stack</CardTitle>
       <div className="mt-3 flex overflow-hidden ml-6 mt-2">
       <Image
       src="/nodejs.png"
@@ -168,12 +168,12 @@ export default function Home() {
         <Button><a href="https://github.com/arrorobbi">Github</a></Button>
       </CardFooter>
     </Card>
-    <Card className="bg-[#00E0FF] w-[420px]">
+    <Card className="bg-[#235784] w-[420px]">
       <CardHeader>
-        <CardTitle>Monas Tours</CardTitle>
-        <CardDescription>Monas Tours needs some content management system for their marketing</CardDescription>
+        <CardTitle className="text-[#E1DCC9]">Monas Tours</CardTitle>
+        <CardDescription className="text-[#94a3b8]">Monas Tours needs some content management system for their marketing</CardDescription>
       </CardHeader>
-      <CardTitle className="ml-6 text-base">Tech Stack</CardTitle>
+      <CardTitle className="ml-6 text-base text-[#94a3b8]">Tech Stack</CardTitle>
       <div className="mt-3 flex overflow-hidden ml-6 mt-2">
       <Image
       src="/nodejs.png"
@@ -211,12 +211,12 @@ export default function Home() {
         <Button><a href="https://github.com/arrorobbi">Github</a></Button>
       </CardFooter>
     </Card>
-    <Card className="bg-[#00E0FF] w-[420px]">
+    <Card className="bg-[#235784] w-[420px]">
       <CardHeader>
-        <CardTitle>BingleShop</CardTitle>
-        <CardDescription>BingleShop is output project from getting Certificate on Binar Academy</CardDescription>
+        <CardTitle className="text-[#E1DCC9]">BingleShop</CardTitle>
+        <CardDescription className="text-[#94a3b8]">BingleShop is output project from getting Certificate on Binar Academy</CardDescription>
       </CardHeader>
-      <CardTitle className="ml-6 text-base">Tech Stack</CardTitle>
+      <CardTitle className="ml-6 text-base text-[#94a3b8]">Tech Stack</CardTitle>
       <div className="mt-3 columns-3 flex overflow-hidden ml-6 mt-2">
       <Image
       src="/expressjs.png"
