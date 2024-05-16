@@ -124,7 +124,7 @@ export default function Home() {
     </TabsContent>
   </Tabs>
     </div>
-    <div className="container mx-auto grid grid-cols-1 lg:grid-cols-3 gap-4 mt-4">
+    <div className="mx-auto grid grid-cols-1 lg:grid-cols-3 gap-4 mt-4">
     <Card className="bg-[#235784] w-[420px]">
       <CardHeader>
         <CardTitle className="text-[#E1DCC9]">Ismei News Portal</CardTitle>
@@ -161,6 +161,7 @@ export default function Home() {
       alt="Picture of the author"
     />
     </div>
+    <div></div>
       <CardContent>
       </CardContent>
       <CardFooter className="flex justify-between">
